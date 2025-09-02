@@ -1,7 +1,105 @@
+/* Use - google - font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300px;
+  font-weight: 400px;
   font-style: normal;
 }
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Share Style  */
+
+  :root{
+    /* Color-Section */
+    --color-01: #df5843;
+    --color-02: #FFFFFF;
+    --color-03: #111111;
+    --color-04: #777777;
+    }
+
+  .display-flex{
+    display: flex;
+    }
+
+  .btn-primary{
+    padding: 16px 46px;
+    border-radius: 43px;
+    font-size: 20px;
+    font-weight: 500px;
+
+    }
+
+  /* Header-Section */
+  .logo-text{ 
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    color: var(--color-01);
+    }
+  header{
+    width: 100%;
+    justify-content: space-around;
+    gap: 463px;
+    background-color:var(--color-03);
+    }
+
+  ul{
+    list-style-type: none;
+    align-items: center;
+    gap: 40px;
+    margin: none;
+    padding: 4px 24px;
+    border: 1px solid var(--color-02);
+    border-radius: 39px; ;
+  }
+
+  li a{
+    margin: none;
+    text-decoration: none;
+    color: var(--color-02);
+  }
+
+
+  /* Banner-Section */
+
+  .banner-section{
+    background-color: var(--color-03);
+    background-image: linear-gradient(var(--color-03),var(--color-04),var(--color-03) 120%);
+    justify-content: space-around;
+  }
+  .banner-content{
+    width: 599px;
+    
+  }
+  .banner-tittle{
+    color: var(--color-02);
+    font-size: 78px;
+    margin-bottom: 0%;
+  }
+
+  .banner-description{
+    color: var(--color-02);
+    opacity: 50%;
+  }
+  
+  .btn-1{
+    background-color: var(--color-01);
+    color: var(--color-02);
+  }
+  .btn-2{
+    background-color: var(--color-03);
+    color: var(--color-02);
+    border: 1px solid var(--color-02);
+  }
+
+  
+ 
